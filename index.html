@@ -8,19 +8,22 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/52fe5c7d5b.js" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
 <body>
+  <div class="scroll-up-btn">
+    <i class="fas fa-angle-up"></i>
+  </div>
 
   <!-- Navbar -->
   <nav class="navbar">
     <div class="max-width">
-      <div class="logo"><a href="#">Filipe <span>Deboni</span></a></div>
+      <div class="logo"><a href="#home">Filipe <span>Deboni</span></a></div>
       <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home" class="menu-btn">Home</a></li>
+        <li><a href="#projects" class="menu-btn">Projects</a></li>
+        <li><a href="#about" class="menu-btn">About</a></li>
+        <li><a href="#contact" class="menu-btn">Contact</a></li>
       </ul>
       <div class="menu-btn">
         <i class="fas fa-bars"></i>
@@ -34,13 +37,31 @@
       <div class="home-content">
         <div class="text-1">Hello, my name is</div>
         <div class="text-2">Filipe Deboni</div>
-        <div class="text-3">and I'm a <span>Front-End Developer</span> </div>
+        <div class="text-3">and I'm a <span class="typing"></span> </div>
         <a href="#">social network</a>
       </div>
     </div>
   </section>
 
-<!-- about section -->
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="max-width">
+      <h2 class="title">Projects</h2>
+      <div class="projects-content">
+        <div class="carousel">
+          <div class="card">
+            <div class="box">
+              <img src="#" alt="">
+              <div class="text">Project name</div>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique necessitatibus provident corporis?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- About Section -->
   <section class="about" id="about">
     <div class="max-width">
       <h2 class="title">About me</h2>
@@ -49,16 +70,75 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptas praesentium molestiae non iure facilis sapiente molestias natus eos libero in, laboriosam reprehenderit delectus cumque neque, sint odio ut eaque eveniet quisquam? Odit porro placeat expedita inventore repellat! Quo repellendus necessitatibus dicta odio distinctio consequatur exercitationem omnis minima asperiores totam!</p>
         </div>
         <div class="column right">
-          <div class="text">I'm Filipe Deboni and I'm a <span>Front-End Developer</span></div>
+          <div class="text">I'm Filipe Deboni and I'm a <span class="typing-2"></span></div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem quas ea ex temporibus tenetur, nulla esse commodi nemo suscipit necessitatibus aperiam doloribus sed adipisci autem optio dolor asperiores molestiae ipsam id impedit repudiandae non quia quae qui? Nulla quia reiciendis ipsum illum? Voluptatibus necessitatibus repellat, eveniet iusto minus voluptates, quidem asperiores culpa molestias voluptate vitae eos? Distinctio impedit doloremque hic sequi, minus corrupti dolorum dolor in? Aperiam in architecto beatae obcaecati dolores, ipsa quidem. Maxime eum repudiandae eos obcaecati numquam dolore ex ipsam reprehenderit tempora nemo ipsa atque rerum iure, assumenda impedit! Dolorem quas quidem accusamus est consequatur aut ipsa?</p>
           <a href="#">Download Resume</a>
         </div> 
       </div>
-          
     </div>
   </section>
 
-  <script src="script.js"></script>
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title">Contact</h2>
+      <div class="contact-content">
+        <div class="column left">
+          <div class="text">Get in Touch</div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus libero asperiores, vitae voluptas soluta laudantium.</p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Filipe Deboni</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">São Paulo, Brazil</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column right">
+          <div class="text">Message me</div>
+          <form action="#">
+            <div class="fields">
+              <div class="field name">
+                <input type="text" placeholder="Name" required>
+              </div>
+              <div class="field email">
+                <input type="email" placeholder="E-mail" required>
+              </div>
+              
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="field textarea">
+              <textarea id="" cols="30" rows="10" placeholder="Message" required></textarea>
+            </div>
+            <dib class="button">
+              <button type="submit">Send message</button>
+            </dib>
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer Section -->
+  <footer>
+    <span>Created by <a href="#">Filipe Deboni</a>
+      <span class="far fa-copyright"></span> 2021 All rights reserved.
+    </span>
+  </footer>
+
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -5,7 +5,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
@@ -51,6 +53,7 @@ font-family: 'Ubuntu', sans-serif; */
   display: inline-block;
 }
 .navbar .menu li a{
+  display: block;
   color: #fff;
   font-size: 18px;
   font-weight: 500;
@@ -72,13 +75,93 @@ font-family: 'Ubuntu', sans-serif; */
   cursor: pointer;
   display: none;
 }
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: #F7AA32;
+  right: 30px;
+  bottom: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s auto;
+}
+.scroll-up-btn.active{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Similar styling */
+section{
+  padding: 100px 0;
+}
+.about, .projects, .contact, footer{
+  font-family: 'Poppins', sans-serif;
+}
+.home, .about{
+  background-color: #111;
+  color: #fff;
+}
+.projects, .contact{
+  background-color: #fff;
+  color: #111;
+}
+.projects .projects-content,
+.about .about-content,
+.contact .contact-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: 'Ubuntu', sans-serif; 
+}
+section .title::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+section .title::after{
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #F7AA32;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.about .title::before{
+  background: #fff;
+}
+.about .title::after{
+  background: #111;
+}
 
 /* Home */
 .home{
   display: flex;
   height: 100vh;
-  background-color: #2C2D2E;
-  color: #fff;
   min-height: 500px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -117,48 +200,16 @@ font-family: 'Ubuntu', sans-serif; */
   background: none;
 }
 
+
+
+/* Projects section */
+.projects .title::after{
+  content: "what i do";
+}
+
 /* about section */
-section{
-  padding: 100px 0;
-}
-.about{
-  font-family: 'Poppins', sans-serif;
-}
-.about .title{
-  position: relative;
-  text-align: center;
-  font-size: 40px;
-  font-weight: 500;
-  margin-bottom: 60px;
-  padding-bottom: 20px;
-  font-family: 'Ubuntu', sans-serif; 
-}
-.about .title::before{
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 180px;
-  height: 3px;
-  background: #111;
-  transform: translateX(-50%);
-}
 .about .title::after{
   content: "who i am";
-  position: absolute;
-  bottom: -12px;
-  left: 50%;
-  font-size: 20px;
-  color: #F7AA32;
-  padding: 5px;
-  background: #fff;
-  transform: translateX(-50%);
-}
-.about .about-content{
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
 }
 .about .about-content .left{
   width: 45%;
@@ -196,6 +247,105 @@ section{
 
 
 
+/* Contact Section */
+.contact .title::after{
+  content: "get in touch";
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p{
+  text-align: justify;
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: #F7AA32;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+}
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea{
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .email{
+  margin-left: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+.contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button button{
+  height: 47px;
+  width: 170px;
+  border: 2px solid #F7AA32;
+  background: #F7AA32;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact .right form .button button:hover{
+  color: #F7AA32;
+  background: none;
+}
+
+/* Footer Section */
+footer{
+  background: #111;
+  padding: 20px 23px;
+  color: #fff;
+  text-align: center;
+}
+footer span a{
+  color: #F7AA32;
+  text-decoration: none;
+
+}
+footer span a:hover{
+  text-decoration: underline;
+}
 
 
 
