@@ -227,18 +227,18 @@ section .title::after{
 .about .about-content{
   align-items: flex-start;
 }
-.about .about-content .left{
+/* .about .about-content .left{
   width:  calc(40% - 30px);
 }
+.about .about-content .right{
+  width:  calc(60% - 30px);
+} */
 /* .about .about-content .left img{
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
 } */
-.about .about-content .right{
-  width:  calc(60% - 30px);
-}
 .about .about-content .right .text,
 .about .about-content .left .text{
   font-size: 25px;
@@ -260,7 +260,8 @@ section .title::after{
   box-sizing: border-box; */
 }
 .about .about-content .left .skills div{
-  margin:  18px 22px;
+  width: 80px;
+  margin:  16px 16px;
   font-size: 48px;
   display: flex;
   flex-direction: column;
@@ -273,6 +274,10 @@ section .title::after{
   font-size: 15px;
   font-weight: 400;
   padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
 }
 .about .about-content .right a{
@@ -301,9 +306,9 @@ section .title::after{
 .contact .contact-content{
   align-items: flex-start;
 }
-.contact .contact-content .column{
+/* .contact .contact-content .column{
   width: calc(50% - 30px);
-}
+} */
 .contact .contact-content .text{
   font-size: 25px;
   font-weight: 600;
@@ -331,7 +336,7 @@ section .title::after{
 .contact .contact-content .row a i{
   display: inline-block;
   background: var(--tertiary);
-  color: var(--white);
+  color: var(--primary);
   font-size: 28px;
   font-weight: 500;
   padding: 8px 8px;
@@ -385,15 +390,15 @@ section .title::after{
   resize: none;
 }
 .contact .right form .button button{
-  height: 47px;
-  width: 170px;
-  border: 3px solid var(--tertiary);
+  display: inline-block;
   background: var(--tertiary);
   color: var(--primary);
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
+  padding: 10px 33px;
+  margin-top: 10px;
   border-radius: 6px;
-  cursor: pointer;
+  border: 3px solid var(--tertiary);
   transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
@@ -429,6 +434,18 @@ footer span a:hover{
 
 @media (max-width: 991px){
   
+}
+
+@media (min-width: 948px){
+  .about .about-content .left{
+    width:  calc(40% - 30px);
+  }
+  .about .about-content .right{
+    width:  calc(60% - 30px);
+  }
+  .contact .contact-content .column{
+    width: calc(50% - 30px);
+  }
 }
 
 @media (max-width: 947px){
@@ -474,19 +491,21 @@ footer span a:hover{
     font-size: 23px;
     padding: 10px 30px;
   }
-  .max-width{
+  /* .max-width{
     max-width: 800px;
-  }
-  .about .about-content .column,
+  } */
+  /* .about .about-content .column,
   .contact .contact-content .column{
-    width: none !important;
+    width: 100%;
+  } */
+  /* review this classes */
+  .about .about-content .left{
+    width: 100%;
   }
   .about .about-content .right{
     width: 100%;
   }
-
-  /* review this classes */
-  .about .about-content .left{
+  .contact .contact-content .column{
     width: 100%;
   }
 }
