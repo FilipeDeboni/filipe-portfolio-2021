@@ -1,10 +1,14 @@
 $(document).ready(function(){
   $(window).scroll(function(){
+
+    // Sticky Top Navbar Script
     if(this.scrollY >20) {
       $('.navbar').addClass("sticky");
     }else{
       $('.navbar').removeClass("sticky");
     }
+
+    // Up Arrow to Home
     if(this.scrollY > 500){
       $('.scroll-up-btn').addClass("active");
     }else{
@@ -12,7 +16,7 @@ $(document).ready(function(){
     }
   });
 
-  // slide up script
+  // Slide Up Script
   $('.scroll-up-btn').click(function(){
     $('html').animate({scrollTop: 0})
   });
