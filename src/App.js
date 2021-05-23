@@ -7,10 +7,10 @@ import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import Projects from "./components/Projects";
-// import Project1 from "./components/Project1";
-// import Project2 from "./components/Project2";
-// import Project3 from "./components/Project3";
+import Project1 from "./components/Project1-clover";
+import Project2 from "./components/Project2-petfriendly";
+import Project3 from "./components/Project3-Portfolio2020";
+import Project4 from "./components/Project4-netflix";
 
 function App() {
   return (
@@ -22,10 +22,10 @@ function App() {
         <Route exact path="/" component={Testimonials} />
         <Route exact path="/" component={Contact} />
         <Route exact path="/" component={Footer} />
-        {/* <Route exact path="/" component={Projects} />
-        <Route path="/petfriendly" component={Project3} />
-        <Route path="/clover" component={Project2} />
-        <Route path="/portfolio" component={Project1} /> */}
+        <Route path="/netflix" component={Project4} /> */}
+        <Route path="/portfolio2020" component={Project3} /> */}
+        <Route path="/petfriendly" component={Project2} /> */}
+        <Route path="/clover" component={Project1} /> */}
       </BrowserRouter>
     </div>
   );

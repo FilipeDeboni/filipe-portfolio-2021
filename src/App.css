@@ -8,10 +8,13 @@
 html{
   scroll-behavior: smooth;
 }
+.App{
+  background-color: var(--secondary);
+}
 :root {
   --primary: #e9e7e9; /* fundo claro */
   --secondary: #222022; /* fundo escuro */
-  --tertiary: #328284; /* destaque */
+  --tertiary: #328284; 
   --white: #feffff;
 }
 .max-width{
@@ -99,27 +102,34 @@ html{
 }
 
 /* Similar styling */
-section{
-  padding: 100px 0;
+/* section{
+  margin: 100px 0;
+} */
+.white{
+  background-color: var(--primary);
 }
-.about, .projects, .contact, footer{
+.about, .projects, .testimonials, .contact, footer{
   font-family: 'Poppins', sans-serif;
+  border-radius: 25px;
+  padding: 80px 0px;
 }
-.home, .about{
+.home, .about, .contact{
   background-color: var(--secondary);
   color: var(--primary);
 }
-.projects, .contact{
+.projects, .testimonials{
   background-color: var(--primary);
   color: var(--secondary);
 }
 .projects .projects-content,
 .about .about-content,
+.testimonials .testimonials-content,
 .contact .contact-content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  /* padding: 80px 0px; */
 }
 section .title{
   position: relative;
@@ -128,6 +138,7 @@ section .title{
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
+  /* padding-top: 80px; */
   font-family: 'Ubuntu', sans-serif; 
 }
 section .title::before{
@@ -150,12 +161,25 @@ section .title::after{
   background: var(--primary);
   transform: translateX(-50%);
 }
-.about .title::before{
+.about .title::before,
+.contact .title::before{
   background: var(--primary);
 }
-.about .title::after{
+.about .title::after,
+.contact .title::after{
   background: var(--secondary);
 }
+.window{
+  /* padding: 80px 0px; */
+}
+.window-card{
+  margin-left: 30px !important;
+  margin-right: 30px;
+  border-radius: 25px;
+  background-color: var(--secondary);
+  /* padding: 80px 0px; */
+}
+
 
 /* Home */
 .home{
@@ -194,16 +218,16 @@ section .title::after{
   justify-content: center;
 }
 .projects .box-1{
-  background-image: url("./images/netflix.png");
+  background-image: url("./images/clover.png");
 }
 .projects .box-2{
-  background-image: url("./images/portfolio-2020.png");
-}
-.projects .box-3{
   background-image: url("./images/pet-friendly.png");
 }
+.projects .box-3{
+  background-image: url("./images/portfolio-2020.png");
+}
 .projects .box-4{
-  background-image: url("./images/clover.png");
+  background-image: url("./images/netflix.png");
 }
 .box-1, .box-2, .box-3, .box-4{
   height: 350px;
@@ -211,7 +235,7 @@ section .title::after{
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
-  margin: 5px;
+  margin: 8px;
   border-radius: 10px;
   filter: grayscale(96%);
   transition: 0.3s;
@@ -310,6 +334,11 @@ section .title::after{
 .about .about-content .right a:hover{
   color: var(--tertiary);
   background: none;
+}
+
+/* Testimonials */
+.testimonials .title::after{
+  content: "how I work";
 }
 
 /* Contact Section */

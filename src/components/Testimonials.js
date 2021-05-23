@@ -2,7 +2,16 @@ import React from "react";
 
 function Home() {
   return (
- <div></div>
+    <section className="window-card"> 
+      <div className="testimonials" id="testimonials">
+        <div className="max-width">
+          <h2 className="title">Testimonials</h2>
+          <div className="testimonials-content">
+        
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
 

@@ -4,18 +4,16 @@ import Navbar from "./Navbar";
 
 function Home() {
   return (
-    <div className="">
+    <section className="home" id="home">
       <Navbar />
-      <section class="home" id="home">
-        <div class="max-width">
-          <div class="home-content">
-            <div class="text-1">Hello, my name is</div>
-            <div class="text-2">Filipe Deboni</div>
-            <div class="text-3">and I'm a <span class="typing"></span> </div>
+        <div className="max-width">
+          <div className="home-content">
+            <div className="text-1">Hello, my name is</div>
+            <div className="text-2">Filipe Deboni</div>
+            <div className="text-3">and I'm a <span class="typing">Full Stack Developer</span> </div>
           </div>
         </div>
     </section>
-    </div>
   );
 }
 

@@ -1,26 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <container class="projects" id="projects">
-    <div class="max-width">
-      <h2 class="title">Projects</h2>
-      <div class="projects-content">
-        <div class="carousel">
+    <section className="window-card">
+    <div className="projects" id="projects">
+      <div className="max-width">
+        <h2 className="title white">Projects</h2>
+        <div className="projects-content">
+          <div className="carousel white">
+    
+            <Link to="/netflix" className="box-4"></Link>
+            <Link to="/portfolio2020" className="box-3"></Link>
+            <Link to="/petfriendly" className="box-2"></Link>
+            <Link to="/clover" className="box-1"></Link>
 
-            <div class="box-1">
-            </div>
-            <div class="box-2">
-            </div>
-            <div class="box-3">
-            </div>
-            <div class="box-4">
-            </div>
-
+          </div>
         </div>
       </div>
     </div>
-  </container>
+    
+  </section>
   );
 }
 
