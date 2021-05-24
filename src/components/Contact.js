@@ -2,9 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <section className="window">
+    <section className="container window">
       <div className="contact" id="contact">
-        <div className="max-width">
           <h2 className="title">Contact me</h2>
             <div className="contact-content">
               <div className="column left">
@@ -50,7 +49,6 @@ function Home() {
               </div>
             </div>
         </div>
-      </div>
     </section>
   );
 }

@@ -3,8 +3,8 @@ import React from "react";
 function Home() {
   return (
     <section className="window">
-      <div className="about" id="about">
-        <div className="max-width">
+      <div className="container">
+        <div className="about" id="about">
           <h2 className="title">About me</h2>
           <div className="about-content">
             <div className="column left">

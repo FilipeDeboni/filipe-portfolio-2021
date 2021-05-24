@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&family=Ubuntu+Condensed&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -17,13 +17,61 @@ html{
   --tertiary: #328284; 
   --white: #feffff;
 }
-.max-width{
+/* .max-width{
   width: 80%;
+  margin: auto;
+} */
+.container{
   margin: auto;
 }
 
-/* Navbar */
+/* ====================== Navbar ====================== */
 .navbar{
+  position: fixed !important;
+  top: 0; 
+  width: 100%;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background-color: var(--secondary);
+  z-index: 999;
+  /* width: 100%;
+  z-index: 999;
+  padding: 30px 0;
+  font-family: 'Ubuntu', sans-serif;
+  transition: all 0.3s ease; */
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.navbar-brand{
+  color: var(--tertiary) !important;
+}
+nav a.nav-link{
+
+}
+nav ul li{
+  text-transform: uppercase;
+}
+
+.nav-link{
+  color: var(--white) !important;
+  font-size: 18px;
+  /* font-weight: 500; */
+  margin-left: 22px;
+  padding: 8px 0px !important;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+}
+.nav-link.active,
+.nav-link:focus,
+.nav-link:hover{
+  color: var(--tertiary) !important;
+  border-bottom: 3px solid var(--tertiary);
+}
+
+
+
+/* .navbar{
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -68,10 +116,10 @@ html{
 .navbar.sticky .menu li a:hover{
   color: var(--primary);
   transition: all 0.3s ease;
-}
+} */
 
-/* Menu btn */
-.menu-btn{
+/* ====================== Menu btn ====================== */
+/* .menu-btn{
   color: var(--white);
   font-size: 23px;
   cursor: pointer;
@@ -99,12 +147,9 @@ html{
   bottom: 30px;
   opacity: 1;
   pointer-events: auto;
-}
-
-/* Similar styling */
-/* section{
-  margin: 100px 0;
 } */
+
+/* ====================== Similar styling ====================== */
 .white{
   background-color: var(--primary);
 }
@@ -169,19 +214,13 @@ section .title::after{
 .contact .title::after{
   background: var(--secondary);
 }
-.window{
-  /* padding: 80px 0px; */
-}
 .window-card{
-  margin-left: 30px !important;
-  margin-right: 30px;
   border-radius: 25px;
   background-color: var(--secondary);
-  /* padding: 80px 0px; */
 }
 
 
-/* Home */
+/* ====================== Home ====================== */
 .home{
   display: flex;
   height: 100vh;
@@ -206,7 +245,7 @@ section .title::after{
   font-weight: 500;
 }
 
-/* Projects section */
+/* ====================== Projects Section ====================== */
 .projects .title::after{
   content: "what I do";
 }
@@ -239,46 +278,31 @@ section .title::after{
   border-radius: 10px;
   filter: grayscale(96%);
   transition: 0.3s;
-  /* display: flex;
-  align-items: flex-end;
-  justify-content: right; */
 }
 .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover{
   filter: grayscale(0%);
   transform: scale(1.05);
 }
-/* .project-detail{
-  width: 100%;
-  height: 100%;
+.project-card{
+  width: 700px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
   display: flex;
-  align-items: flex-end;
-  color: var(--white);
-
+  flex-direction: column;
 }
-.box-1 p, .box-2 p, .box-3 p, .box-4 p{
-  padding: 4px 16px;
-  background: var(--tertiary);
-  justify-self: center;
-  font-size: 12px;
-  font-weight: 500;
-  border-radius: 0 10px 0 10px;
-} */
+.project-info{
+  width: 300px;
+}
 
 
-
-/* about section */
+/* ====================== About Section ====================== */
 .about .title::after{
   content: "who I am";
 }
 .about .about-content{
   align-items: flex-start;
 }
-/* .about .about-content .left img{
-  height: 400px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 6px;
-} */
 .about .about-content .right .text,
 .about .about-content .left .text{
   font-size: 25px;
@@ -336,12 +360,12 @@ section .title::after{
   background: none;
 }
 
-/* Testimonials */
+/* ====================== Testimonials ====================== */
 .testimonials .title::after{
   content: "how I work";
 }
 
-/* Contact Section */
+/* ====================== Contact Section ====================== */
 .contact .title::after{
   content: "get in touch";
 }
@@ -442,7 +466,7 @@ section .title::after{
   background: none;
 }
 
-/* Footer Section */
+/* ====================== Footer Section ====================== */
 footer{
   background: var(--secondary);
   font-size: 14px;
@@ -459,7 +483,7 @@ footer span a:hover{
   text-decoration: underline;
 }
 
-/* Responsive media query */
+/* ====================== Responsivity ====================== */
 @media (min-width: 1105px){
 
 }
