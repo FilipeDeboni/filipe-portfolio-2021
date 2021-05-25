@@ -174,7 +174,6 @@ nav ul li{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  /* padding: 80px 0px; */
 }
 section .title{
   position: relative;
@@ -249,14 +248,14 @@ section .title::after{
 .projects .title::after{
   content: "what I do";
 }
-.projects .carousel{
+/* .projects .carousel{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
-}
-.projects .box-1{
+} */
+/* .projects .box-1{
   background-image: url("./images/clover.png");
 }
 .projects .box-2{
@@ -267,8 +266,8 @@ section .title::after{
 }
 .projects .box-4{
   background-image: url("./images/netflix.png");
-}
-.box-1, .box-2, .box-3, .box-4{
+} */
+/* .box-1, .box-2, .box-3, .box-4{
   height: 350px;
   width: 350px;
   background-repeat: no-repeat;
@@ -282,18 +281,80 @@ section .title::after{
 .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover{
   filter: grayscale(0%);
   transform: scale(1.05);
+} */
+.projects .projects-content{
+  justify-content: center;
 }
 .project-card{
-  width: 700px;
-  height: 500px;
+  border-radius: 10px !important;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+  margin: 10px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--secondary);
+  transition: all 0.3s ease;
+}
+.project-card:hover{
+  transform: scale(1.05);
+}
+.project-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 10px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
-  display: flex;
-  flex-direction: column;
+  border-radius: 10px;
+  width: 60%;
 }
 .project-info{
-  width: 300px;
+  padding: 14px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--white);
 }
+.project-info-text{
+  text-align: center;
+}
+.project-title{
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 8px;
+  color: var(--tertiary);
+}
+.project-description{
+  font-size: 15px;
+  margin-bottom: 14px;
+}
+.project-info .btn{
+  width: 100%;
+  font-size: 14px;
+  margin: 5px;
+  color: var(--white);
+  border: none;
+  transition: all 0.3s ease;
+}
+.project-info .btn:hover{
+  background: var(--tertiary);
+  border: none;
+}
+.about .about-content .right a{
+  display: inline-block;
+  background: var(--tertiary);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 33px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 3px solid var(--tertiary);
+  transition: all 0.3s ease;
+}
+
+
 
 
 /* ====================== About Section ====================== */
@@ -308,14 +369,15 @@ section .title::after{
   font-size: 25px;
   font-weight: 600;
   margin: 24px 0;
+  text-align: center;
 }
 .about .about-content .right .text span{
   color: var(--tertiary);
 }
 .about .about-content .right p{
-  /* text-align: justify; */
-  text-align: left;
+  text-align: center;
   margin-bottom: 24px;
+  
 }
 .about .about-content .left .skills{
   display: flex; 
@@ -584,6 +646,18 @@ footer span a:hover{
   }
   .about, .projects, .contact, footer{
     font-size: 0.98rem;
+  }
+  .project-card{
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-img{
+    width: 100%;
+  }
+  .project-info-btns{
+    display: flex;
+    justify-content: center;
+    width: 70%;
   }
 }
 

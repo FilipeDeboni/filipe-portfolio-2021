@@ -8,7 +8,7 @@ import "../App.css";
 
 // function Navbar(props) {
 
-const Navbar = () => {
+function Navbar(){
   return (
     <nav className="navbar navbar-expand-lg">
     <div className="container">
@@ -16,7 +16,7 @@ const Navbar = () => {
       <button className="navbar-toggler" type="button" data-toggle="collapse" 
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded="false" aria-label="Toggle navigation">
-        <i className="fas fa-bars" style={{ color: "var(--tertiary)"}}></i>
+        <i className="fas fa-bars" style={{ color: "var(--white)"}}></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
