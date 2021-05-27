@@ -31,21 +31,35 @@ function Home() {
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Netflix</div>
-                    <div className="project-description d-lg-block">sdfg dgsdgfsdfg sd gsdf gsdf gsd gsdf gsdfg ergdgds rgsd sdf gsdf gdsf gsdf gsd </div>
+                    <div className="project-description d-lg-block">
+                      <p>The Netflix mainpage clone that I developed to practice Front-End Skills.
+                      It was very fun to work with that, mostly with the list scroll feature and the API from TheMovieDB.com, 
+                      that has movies from all studios.
+                      </p>
+                    </div>
+                    <div className="project-tags" style={{ color:"gray"}}>
+                      Tags: React, JavaScript, API, responsivity.
+                    </div>
                   </div>
 
                   <div className="project-info-btns">
-                    <button type="button" class="btn btn-secondary">Website</button>
-                  <button type="button" class="btn btn-secondary">GitHub</button>
+                    <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://filipedeboni-netflix-react.herokuapp.com/"
+                      class="btn btn-secondary"
+                      >Website
+                    </a>
+                    <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/FilipeDeboni/netflix-react"
+                      class="btn btn-secondary"
+                      >GitHub
+                    </a>
                   </div>
                 </div>
               </div>
 
-
-
-
-                {/* Modal Project 4 */}
-                <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                {/* <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                   <div className="modal-dialog modal-dialog-centered" role="document">
                     <div className="modal-content">
                       <div className="modal-header">
@@ -63,24 +77,30 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                </div>
-                
-
-
-
-
+                </div> */}
+               
               {/* Project 3 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
                 <img src={ImgProject3} className="project-img"></img>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Portfolio 2020</div>
-                    <div className="project-description d-lg-block">sdfg dgsdgfsdfg sd gsdf gsdf gsd gsdf gsdfg ergdgds rgsd sdf gsdf gdsf gsdf gsd </div>
+                    <div className="project-description d-lg-block">
+                      <p>I developed an old version of my Portfolio in 2019/2020 to gather my projects in a more visual way. 
+                      Much of that design I did in an experimental way to practice technical skills.</p>
+                    </div>
+                    <div className="project-tags" style={{ color:"gray"}}>
+                      Tags: React, JavaScript, API, Single Page Application (SPA), responsivity.
+                    </div>
                   </div>
 
                   <div className="project-info-btns">
-                    <button type="button" class="btn btn-secondary">Website</button>
-                  <button type="button" class="btn btn-secondary">GitHub</button>
+                    <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/FilipeDeboni/filipe-portfolio"
+                      class="btn btn-secondary"
+                      >GitHub
+                    </a>
                   </div>
                 </div>
               </div>
@@ -91,12 +111,22 @@ function Home() {
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Pet Friend.ly</div>
-                    <div className="project-description d-lg-block">sdfg dgsdgfsdfg sd gsdf gsdf gsd gsdf gsdfg ergdgds rgsd sdf gsdf gdsf gsdf gsd </div>
+                    <div className="project-description d-lg-block">
+                      <p>Social network with a specific feature for pet adoption developed in just one week during my 2019's Bootcamp.
+                      It was developed in a team of two and I was responsible for the Front-End.</p>
+                    </div>
+                    <div className="project-tags" style={{ color:"gray"}}>
+                      Tags: React, JavaScript, Bootstrap, MongoDB, responsivity.
+                    </div>                  
                   </div>
 
                   <div className="project-info-btns">
-                    <button type="button" class="btn btn-secondary">Website</button>
-                  <button type="button" class="btn btn-secondary">GitHub</button>
+                    <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/FilipeDeboni/ironhack-project-3-petfriendly-front"
+                      class="btn btn-secondary"
+                      >GitHub
+                    </a>                  
                   </div>
                 </div>
               </div>
@@ -107,23 +137,25 @@ function Home() {
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Clover: Personal Budget</div>
-                    <div className="project-description d-lg-block">sdfg dgsdgfsdfg sd gsdf gsdf gsd gsdf gsdfg ergdgds rgsd sdf gsdf gdsf gsdf gsd </div>
+                    <div className="project-description d-lg-block">
+                      <p>Personal finance control website using the 50/30/20 budget rule and customizable categories.
+                      It was developed in a team of two and I was responsible for the Front-End.</p>
+                    </div>
+                    <div className="project-tags" style={{ color:"gray"}}>
+                      Tags: JavaScript, Bootstrap, Handlebars, MongoDB, responsivity.
+                    </div>                  
                   </div>
 
                   <div className="project-info-btns">
-                    <button type="button" class="btn btn-secondary">Website</button>
-                  <button type="button" class="btn btn-secondary">GitHub</button>
+                    <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/FilipeDeboni/Ironhack-Project-2-Clover-Finance/tree/filipe"
+                      class="btn btn-secondary"
+                      >GitHub
+                    </a>                  
                   </div>
                 </div>
               </div>
-
-
-              {/* <Link to="/portfolio2020" className="box-3"></Link>
-              <Link to="/petfriendly" className="box-2"></Link>
-              <Link to="/clover" className="box-1"></Link> */}
- 
-
-
         </div>
       </div>
     </div>

@@ -59,15 +59,35 @@ function Home() {
               <div className="text">
                 <p>I'm Filipe Deboni <br></br>and I'm a <span className="typing-2">Full Stack Developer</span></p>
               </div>
-              <p>I’m a Front-End Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
-              <p>As a good INTJ and Type 5 personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other hand, things I'm not so good at are to deal with people who put emotions over rationality and when I'm focused I can seem to be in my own world. My bachelor in Psychology helped me a lot with that points, also to think strategically and to relate better with people.</p>
+              <div>
+                <p>I’m a Front-End Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
+                <p>As a good INTJ and Type 5 personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other hand, things I'm not so good at are to deal with people who put emotions over rationality and when I'm focused I can seem to be in my own world. My bachelor in Psychology helped me a lot with that points, also to think strategically and to relate better with people.</p>
+              </div>
+              
+
+               <div className="experience-box">
+                 <div className="experience mb-3">
+                   <h3>05+</h3>
+                   <h6>years of experience in Technology field</h6>
+                   <p style={{ color:"gray"}}>(since 2016)</p>
+                 </div>
+                 <div className="experience mb-3">
+                   <h3>01+</h3>
+                   <h6>years of experience as Software Engineer</h6>
+                   <p style={{ color:"gray"}}>(since 2020)</p>
+                </div>
+              </div>
+  
+              
+            </div> 
+            <div className="about-btn">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1NSc93_2qwbCgQffopYgDMV2z5DHaMCCR/view?usp=sharing">
                 Download Resume
               </a>
-            </div> 
+            </div>
           </div>
         </div>
       </div>
