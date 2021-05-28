@@ -37,7 +37,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Portfolio & Planning Manager at Essilor</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(Immediate Superior for 3 years)</h6>
-                          <p className="card-text mb-3">"I worked for several years with Filipe and he has a very good background in strategic planning and his ownership is very striking and always present skill in his work. In fact, he was my right hand in all the initiatives that we had to do in our former company. When I think of him, the three words that come to my mind are committed, loyal and flexible."</p>
+                          <p className="card-text mb-3">"I've worked for several years with Filipe and he has a very good background in strategic planning and his ownership is very striking and an always present skill in his work. In fact, he was my right hand in all the initiatives that we had to do in our former company. When I think of him, the three words that come to my mind are committed, loyal and flexible."</p>
                         </div>
                       </div>
 
@@ -56,7 +56,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Product and Innovation Manager at Pearson</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3,5 years)</h6>
-                          <p className="card-text mb-3">"I've worked with Filipe for more than 3 years and he was the guy to organize and control, things that he is really good, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. He is very engaged, responsible and trustworthy."</p>
+                          <p className="card-text mb-3">"He was the guy to organize and control, things that he is really good, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. He is very engaged, responsible and trustworthy."</p>
                         </div>
                       </div>
 
