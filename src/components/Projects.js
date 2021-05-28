@@ -58,26 +58,6 @@ function Home() {
                 </div>
               </div>
 
-                {/* <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                  <div className="modal-dialog modal-dialog-centered" role="document">
-                    <div className="modal-content">
-                      <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div className="modal-body">
-                        ...
-                      </div>
-                      <div className="modal-footer">
-                        <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" className="btn btn-primary">Save changes</button>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
-               
               {/* Project 3 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
                 <img src={ImgProject3} alt="portfolio website with mobile version" className="project-img"></img>
@@ -86,7 +66,7 @@ function Home() {
                     <div className="project-title">Portfolio 2020</div>
                     <div className="project-description d-lg-block">
                       <p>I developed an old version of my Portfolio in 2019/2020 to gather my projects in a more visual way. 
-                      Much of that design I did in an experimental way to practice technical skills.</p>
+                      Much of that design I did in an experimental way, just to practice technical skills.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>
                       Tags: React, JavaScript, API, Single Page Application (SPA), responsivity.
@@ -94,6 +74,12 @@ function Home() {
                   </div>
 
                   <div className="project-info-btns">
+                  <a type="button"  target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://filipe-portfolio.vercel.app/"
+                      className="btn btn-secondary"
+                      >Website
+                    </a>
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/FilipeDeboni/filipe-portfolio"
