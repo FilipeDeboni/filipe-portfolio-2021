@@ -36,8 +36,8 @@ function Home() {
                             <i className="fab fa-linkedin"></i>
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Portfolio & Planning Manager at Essilor</h6>
-                          <h6 className="card-subtitle mb-4 text-muted">(Immediate Superior for 3,5 years)</h6>
-                          <p className="card-text mb-3">"I worked for several years with him. Filipe has a very good background in strategic planning and his ownership is very striking and always present in his work. In fact, he was my right hand in all the initiatives that we had to do in our old company. He is very committed, loyal and flexible."</p>
+                          <h6 className="card-subtitle mb-4 text-muted">(Immediate Superior for 3 years)</h6>
+                          <p className="card-text mb-3">"I worked for several years with Filipe and he has a very good background in strategic planning and his ownership is very striking and always present skill in his work. In fact, he was my right hand in all the initiatives that we had to do in our former company. When I think of him, the three words that come to my mind are committed, loyal and flexible."</p>
                         </div>
                       </div>
 
@@ -56,7 +56,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Product and Innovation Manager at Pearson</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3,5 years)</h6>
-                          <p className="card-text mb-3">"I've worked with Filipe for more than 3 years and he was the guy to organize and control, which is really good, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. When I think of him, the three words that come to my mind are engaged, responsible and trustworthy."</p>
+                          <p className="card-text mb-3">"I've worked with Filipe for more than 3 years and he was the guy to organize and control, things that he is really good, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. He is very engaged, responsible and trustworthy."</p>
                         </div>
                       </div>
 
@@ -81,7 +81,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Technology Manager at CI&T</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3 years)</h6>
-                          <p className="card-text mb-3">"Filipe is a great professional and a very engaged person with processes, creation and results. Personally, he has very positive energy, is very kind and polite. I would describe him as committed, he has critical thinking and is very engaged."</p>
+                          <p className="card-text mb-3">"Filipe is a great professional and a very engaged person with processes, creation and results. Personally, he has a very positive energy, is very kind and polite. Words that describes him is committed, critical thinking and very engaged."</p>
                         </div>
                       </div>
 
@@ -100,7 +100,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Squad Leader at CI&T</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3,5 years)</h6>
-                          <p className="card-text mb-3">"Organized, professional, who knows what to do, when to do it and helps the team to reach the final goal, even if it requires something other than their role. He will help you with everything you need, you can run to him that he knows everything and saves you. Three words that describe him are organization, focus and trust."</p>
+                          <p className="card-text mb-3">"A very organized professional who knows what to do, when to do and helps the team to reach the final goal, even if it requires something other than their role. He will help you with everything you need, you can run to him that he knows everything and saves you. I would describe him as organized, focused and trustworthy."</p>
                         </div>
                       </div>
 

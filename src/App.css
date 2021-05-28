@@ -55,6 +55,10 @@ nav ul li{
   color: var(--tertiary) !important;
   border-bottom: 2px solid var(--tertiary);
 }
+.navbar-toggler .fa-bars{
+  padding-top: 15px;
+  font-size: 24px;
+}
 
 
 /* ====================== Similar styling ====================== */
@@ -427,6 +431,7 @@ section .title::after{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
   color: red;
 }
 .testimonials-content .single-box .card-text{
@@ -442,9 +447,7 @@ section .title::after{
   flex-direction: column;
   align-items: center !important;
   text-decoration: none;
-  /* transition: all 0.3s ease; */
 }
-
 .testimonials-content .card-title{
   font-family: 'Ubuntu', sans-serif; 
   color: var(--tertiary);
@@ -572,7 +575,7 @@ section .title::after{
 footer{
   background: var(--secondary);
   font-size: 14px;
-  padding: 15px 20px 0 20px;
+  padding: 10px 15px;
   color: var(--primary);
   text-align: center;
 }
@@ -700,12 +703,18 @@ footer span a:hover{
   .about, .projects, .contact, footer{
     font-size: 0.98rem;
   }
+  .about .about-content .right p{
+    text-align: left;
+  }
   .project-card{
     flex-direction: column;
     align-items: center;
   }
   .project-img{
     width: 100%;
+  }
+  .project-info{
+    padding: 0;
   }
   .project-info-btns{
     display: flex;
@@ -720,6 +729,19 @@ footer span a:hover{
   }
   .about .about-content .right .experience-box{
     flex-direction: row;
+  }
+  .testimonials-content .single-box{
+    padding: 5px;
+  }
+  .testimonials-content .single-box .card-name-box i{
+    margin-top: 1px;
+    font-size: 17px;
+  }
+  .testimonials-content .single-box .card-subtitle{
+    font-size: 14px;
+  }
+  .testimonials-content .single-box .card-text{
+    font-size: 14px;
   }
 }
 
