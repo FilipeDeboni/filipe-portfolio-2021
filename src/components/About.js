@@ -61,7 +61,7 @@ function Home() {
             </div>
             <div className="column right">
               <div className="text">
-                <p>I'm Filipe Deboni <br></br>and I'm a <span className="typing-2">Full Stack Developer</span></p>
+                <p>I'm Filipe Deboni,<br></br>a <span className="typing-2">Full Stack Developer</span></p>
               </div>
               <div>
                 <p>I’m a Full Stack Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
