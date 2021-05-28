@@ -161,6 +161,7 @@ section .title::after{
   background-size: cover;
   object-fit: cover;
   box-shadow: 0px 0px 0px transparent;
+  margin-top: -120px;
   width: 100%;
   height: 100vh;
   background: url("images/home.svg") no-repeat center; 
@@ -190,7 +191,7 @@ section .title::after{
   justify-content: center;
 }
 .project-card{
-  border-radius: 10px !important;
+  border-radius: 15px !important;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
   margin: 10px;
   padding: 20px;
@@ -207,7 +208,7 @@ section .title::after{
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
   width: 60%;
 }
@@ -227,7 +228,7 @@ section .title::after{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   color: var(--tertiary);
 }
 .project-description{
@@ -367,7 +368,7 @@ section .title::after{
   text-decoration: none;
   padding: 10px 33px;
   margin: 3px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
   align-self: center;
@@ -413,7 +414,7 @@ section .title::after{
   font-weight: 500;
   padding: 10px 33px;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 3px solid var(--tertiary);
   transition: all 0.3s ease;
   text-decoration: none;
@@ -423,23 +424,24 @@ section .title::after{
 .testimonials .title::after{
   content: "how I work";
 }
-.testimonials-content{
-  padding: 10px;
+.testimonials-content .carousel-item .row{
+  padding: 10px 40px 10px 40px;
   justify-content: space-evenly !important;
 }
-.testimonials-content .card{
-  margin: 30px 10px 50px 10px;
-  border-radius: 10px;
+.testimonials-content .single-box{
+  margin: 50px 0 10px 0;
+  padding: 20px;
+  border-radius: 15px;
   border: none;
   transition: all 0.3s ease;
   background-color: var(--white);
-  width: calc(50% - 50px)
+  width: 100%;
 }
-.testimonials-content .card:hover{
-  transform: scale(1.05);
-}
-.testimonials-content .card-body{
-  /* margin-top: 50px; */
+.testimonials-content .card-img-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .testimonials-content .card-img{
   width: 125px;
@@ -453,9 +455,33 @@ section .title::after{
   border: 3px solid var(--tertiary);
   margin:-50px 10px 20px 10px;
 }
-.testimonials-content .card .card-body .card-text{
-  margin: 10px 10px 10px 10px;
+
+.testimonials-content .card-name-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--tertiary);
+  text-decoration: none;
+}
+.testimonials-content .card-name-box:hover{
+  text-decoration: underline;
+}
+.testimonials-content .single-box .card-title{
+  padding-right: 9px;
+}
+.testimonials-content .single-box .card-subtitle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: red;
+}
+.testimonials-content .single-box .card-text{
+  margin: 10px;
   text-align: center;
+}
+.testimonials-content .card-name-box i{
+  margin-top: 3px;
+  font-size: 18px;
 }
 .testimonials-content .card-person-box{
   display: flex;
@@ -473,6 +499,74 @@ section .title::after{
   font-family: 'Ubuntu', sans-serif; 
   font-weight: 400;
 }
+.testimonials-content .carousel-control-prev,
+.testimonials-content .carousel-control-next{
+  color: var(--tertiary);
+  font-size: 40px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.testimonials-content .carousel-control-prev{
+  margin-left: -50px;
+}
+.testimonials-content .carousel-control-next{
+  margin-right: -50px;
+}
+
+
+/* 
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  text-align: center;
+  padding: 40% 5%;
+  background: var(--primary);
+  color: black;
+  border-radius: 15px;
+}
+.img-text h2{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.img-text p{
+  font-size: 14px;
+}
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  overflow: hidden;
+  top: 15px;
+  left: 125px;
+  border-radius: 50%;
+}
+.img-area img{
+  width: 100%;
+}
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -70px;
+}
+
+.carousel-indicators li{
+  background: #000;
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+}
+.carousel-indicators .active{
+  background: #fff
+} */
+
+
 
 /* ====================== Contact Section ====================== */
 .contact .title::after{
@@ -488,7 +582,7 @@ section .title::after{
   text-align: center;
 }
 .contact .contact-content .text{
-  text-align: justify;
+  text-align: center;
 }
 .contact .contact-content .row{
   display: inline-block;
@@ -506,7 +600,7 @@ section .title::after{
   font-weight: 500;
   padding: 8px;
   margin: 10px 0 24px 0;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 3px solid var(--tertiary);
   transition: all 0.3s ease;
 
@@ -545,7 +639,7 @@ section .title::after{
   height: 100%;
   width: 100%;
   border: 1px solid lightgray;
-  border-radius: 10px;
+  border-radius: 15px;
   outline: none;
   padding: 0 15px;
   font-size: 16px;
@@ -567,7 +661,7 @@ section .title::after{
   font-weight: 500;
   padding: 10px 33px;
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 15px;
   border: 3px solid var(--tertiary);
   transition: all 0.3s ease;
 }
@@ -596,6 +690,14 @@ footer span a:hover{
 
 /* ====================== Responsivity ====================== */
 
+@media (max-width: 1399px){
+  .testimonials-content .carousel-control-prev{
+    margin-left: -25px;
+  }
+  .testimonials-content .carousel-control-next{
+    margin-right: -25px;
+  }
+}
 @media (max-width: 1199px){
   .home .home-content .img-box,
   .home .home-content .img-box .home-img{
@@ -605,6 +707,12 @@ footer span a:hover{
   .home .home-content .home-text{
     width: 100%;
     /* background-color: royalblue; */
+  }
+  .testimonials-content .carousel-control-prev{
+    margin-left: -15px;
+  }
+  .testimonials-content .carousel-control-next{
+    margin-right: -15px;
   }
 }
 
@@ -656,6 +764,18 @@ footer span a:hover{
   }
   .contact .contact-content .column{
     width: 100%;
+  }
+  .testimonials-content .carousel-item .row{
+    padding: 10px;
+  }
+  .testimonials-content .single-box{
+    margin: 50px 0 10px 0;
+  }
+  .testimonials-content .carousel-control-prev{
+    font-size: 0;
+  }
+  .testimonials-content .carousel-control-next{
+    font-size: 0;
   }
 }
 

@@ -44,7 +44,7 @@ function Home() {
                     <textarea id="" cols="30" rows="10" placeholder="Message" required></textarea>
                   </div>
                   <div className="button">
-                    <button type="submit">Send message</button>
+                    <button type="submit">This form is not working yet</button>
                   </div>
                 </form>
               </div>
