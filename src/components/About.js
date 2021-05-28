@@ -71,11 +71,11 @@ function Home() {
                    <h6>years of experience in Technology field</h6>
                    <p style={{ color:"gray"}}>(since 2016)</p>
                  </div>
-                 <div className="experience mb-3">
+                 {/* <div className="experience mb-3">
                    <h3>01+</h3>
                    <h6>years of experience as Software Engineer</h6>
                    <p style={{ color:"gray"}}>(since 2020)</p>
-                </div>
+                </div> */}
               </div>
   
               

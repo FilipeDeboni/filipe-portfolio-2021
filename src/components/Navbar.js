@@ -12,14 +12,13 @@ function Navbar(){
   return (
     <nav className="navbar navbar-expand-lg">
     <div className="container">
-      <a className="navbar-brand"></a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" 
       data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded="false" aria-label="Toggle navigation">
         <i className="fas fa-bars" style={{ color: "var(--white)"}}></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav mr-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#home">Home <span className="sr-only">(current)</span></a>
           </li>

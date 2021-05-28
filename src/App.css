@@ -32,21 +32,17 @@ html{
 }
 .navbar-nav{
   margin-left: auto;
+  padding-top: 10px;
 }
 .navbar-brand{
   color: var(--tertiary) !important;
 }
-nav a.nav-link{
-
-}
 nav ul li{
   text-transform: uppercase;
 }
-
 .nav-link{
   color: var(--white) !important;
   font-size: 18px;
-  /* font-weight: 500; */
   margin-left: 22px;
   padding: 8px 0px !important;
   letter-spacing: 0.2px;
@@ -57,7 +53,7 @@ nav ul li{
 .nav-link:focus,
 .nav-link:hover{
   color: var(--tertiary) !important;
-  border-bottom: 3px solid var(--tertiary);
+  border-bottom: 2px solid var(--tertiary);
 }
 
 
@@ -153,7 +149,7 @@ section .title::after{
 .home .home-content .img-box{
   width: 40%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .home .home-content .img-box .home-img{
   background-position: center;
@@ -253,6 +249,7 @@ section .title::after{
   background: var(--secondary);
   border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
+  border-radius: 15px;
 }
 .project-info .btn:hover{
   background: var(--tertiary);
@@ -274,7 +271,18 @@ section .title::after{
 .about .about-content .right{
   padding: 0 22px 0 22px;
 }
-
+.about .about-content .left{
+  width: calc(40% - 20px);
+}
+.about .about-content .right{
+  width: calc(60% - 20px);
+}
+.contact .contact-content .column{
+  width: calc(50% - 20px);
+}
+.project-info .btn{
+  width: 200px;
+}
 .about .about-content .left .text,
 .about .about-content .right .text{
   font-size: 25px;
@@ -286,11 +294,6 @@ section .title::after{
   display: flex;
   justify-content: center;
 }
-.about .about-content .right .about-btn a{
-  /* display: flex;
-  justify-content: center;
-  width: 300px; */
-}  
 .about .about-content .right .text span{
   color: var(--tertiary);
 }
@@ -326,25 +329,15 @@ section .title::after{
 }
 .about .about-content .right .experience-box{
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
 }
 .about .about-content .right .experience-box .experience{
-  /* width: 100px; */
   padding-right: 50px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: left; */
-  /* width: calc(30% - 20px); */
 }
 .about .about-content .right .experience-box .experience h3,
 .about .about-content .right .experience-box .experience h6,
 .about .about-content .right .experience-box .experience p{
   max-width: 150px;
   text-align: left;
-}
-.about .about-content .right .experience-box .experience h3{
-  /* color: var(--tertiary); */
 }
 .about .about-content .right .experience-box .experience h6{
   font-weight: 400;
@@ -381,45 +374,6 @@ section .title::after{
 }
 
 
-
-.about .about-content .left{
-  width: calc(40% - 20px);
-}
-.about .about-content .right{
-  width: calc(60% - 20px);
-}
-.contact .contact-content .column{
-  width: calc(50% - 20px);
-}
-.project-info .btn{
-  width: 200px;
-}
-
-/* .about .about-content .left a{
-
-    width: 145px;
-  font-size: 14px;
-  font-weight: 500;
-  margin: 3px;
-  color: var(--tertiary);
-  background: var(--secondary);
-  border: 2px solid var(--tertiary);
-  transition: all 0.3s ease;
-
-
-  display: inline-block;
-  background: var(--tertiary);
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 500;
-  padding: 10px 33px;
-  margin-top: 10px;
-  border-radius: 15px;
-  border: 3px solid var(--tertiary);
-  transition: all 0.3s ease;
-  text-decoration: none;
-} */
-
 /* ====================== Testimonials ====================== */
 .testimonials .title::after{
   content: "how I work";
@@ -452,7 +406,7 @@ section .title::after{
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
-  border: 3px solid var(--tertiary);
+  border: 2px solid var(--tertiary);
   margin:-50px 10px 20px 10px;
 }
 
@@ -513,61 +467,6 @@ section .title::after{
   margin-right: -50px;
 }
 
-
-/* 
-.img-text{
-  width: 100%;
-  height: 300px;
-  display: block;
-  text-align: center;
-  padding: 40% 5%;
-  background: var(--primary);
-  color: black;
-  border-radius: 15px;
-}
-.img-text h2{
-  font-size: 25px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
-.img-text p{
-  font-size: 14px;
-}
-.single-box{
-  position: relative;
-  margin-bottom: 30px;
-}
-.img-area{
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border: 5px solid black;
-  overflow: hidden;
-  top: 15px;
-  left: 125px;
-  border-radius: 50%;
-}
-.img-area img{
-  width: 100%;
-}
-.carousel-indicators{
-  left: 0;
-  top: auto;
-  bottom: -70px;
-}
-
-.carousel-indicators li{
-  background: #000;
-  border-radius: 50%;
-  width: 15%;
-  height: 15%;
-}
-.carousel-indicators .active{
-  background: #fff
-} */
-
-
-
 /* ====================== Contact Section ====================== */
 .contact .title::after{
   content: "get in touch";
@@ -601,9 +500,8 @@ section .title::after{
   padding: 8px;
   margin: 10px 0 24px 0;
   border-radius: 15px;
-  border: 3px solid var(--tertiary);
+  border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
-
 }
 .contact .contact-content .row a i:hover{
   color: var(--secondary);
@@ -662,7 +560,7 @@ section .title::after{
   padding: 10px 33px;
   margin-top: 10px;
   border-radius: 15px;
-  border: 3px solid var(--tertiary);
+  border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{

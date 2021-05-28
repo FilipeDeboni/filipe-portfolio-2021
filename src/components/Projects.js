@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ImgProject4 from "../images/netflix.png"
 import ImgProject3 from "../images/portfolio-2020.png"
 import ImgProject2 from "../images/pet-friendly.png"
@@ -27,7 +26,7 @@ function Home() {
 
               {/* Project 4 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject4} className="project-img"></img>
+                <img src={ImgProject4} alt="Netflix main page with mobile version" className="project-img"></img>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Netflix</div>
@@ -46,13 +45,13 @@ function Home() {
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://filipedeboni-netflix-react.herokuapp.com/"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       >Website
                     </a>
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/FilipeDeboni/netflix-react"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       >GitHub
                     </a>
                   </div>
@@ -64,7 +63,7 @@ function Home() {
                     <div className="modal-content">
                       <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
@@ -81,7 +80,7 @@ function Home() {
                
               {/* Project 3 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject3} className="project-img"></img>
+                <img src={ImgProject3} alt="portfolio website with mobile version" className="project-img"></img>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Portfolio 2020</div>
@@ -98,7 +97,7 @@ function Home() {
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/FilipeDeboni/filipe-portfolio"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       >GitHub
                     </a>
                   </div>
@@ -107,7 +106,7 @@ function Home() {
 
               {/* Project 2 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject2} className="project-img"></img>
+                <img src={ImgProject2} alt="social website with pet pictures" className="project-img"></img>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Pet Friend.ly</div>
@@ -124,7 +123,7 @@ function Home() {
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/FilipeDeboni/ironhack-project-3-petfriendly-front"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       >GitHub
                     </a>                  
                   </div>
@@ -133,7 +132,7 @@ function Home() {
 
               {/* Project 1 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject1} className="project-img"></img>
+                <img src={ImgProject1} alt="website with two worker women pointing to a laptop" className="project-img"></img>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Clover: Personal Budget</div>
@@ -150,7 +149,7 @@ function Home() {
                     <a type="button"  target="_blank"
                       rel="noopener noreferrer"
                       href="https://github.com/FilipeDeboni/Ironhack-Project-2-Clover-Finance/tree/filipe"
-                      class="btn btn-secondary"
+                      className="btn btn-secondary"
                       >GitHub
                     </a>                  
                   </div>

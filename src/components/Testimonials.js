@@ -26,7 +26,7 @@ function Home() {
                     <div className="col-md-11 col-lg-5">
                         <div className="single-box">
                           <div className="card-img-box">
-                            <img src={Rafael} className="card-img"></img>
+                            <img src={Rafael} alt="Rafael Olini" className="card-img"></img>
                           </div>
                           <a className="card-name-box"
                             target="_blank"
@@ -41,11 +41,11 @@ function Home() {
                         </div>
                       </div>
 
-                      {/* Card 3: Marcelo Castro */}
+                      {/* Card 3: Marcelo de Castro */}
                       <div className="col-md-11 col-lg-5">
                         <div className="single-box">
                           <div className="card-img-box">
-                            <img src={Marcelo} className="card-img"></img>
+                            <img src={Marcelo} alt="Marcelo de Castro" className="card-img"></img>
                           </div>
                           <a className="card-name-box"
                             target="_blank"
@@ -70,7 +70,7 @@ function Home() {
                       <div className="col-md-11 col-lg-5">
                         <div className="single-box">
                           <div className="card-img-box">
-                            <img src={Leticia} className="card-img"></img>
+                            <img src={Leticia} alt="Letícia Ferracin" className="card-img"></img>
                           </div>
                           <a className="card-name-box"
                             target="_blank"
@@ -89,7 +89,7 @@ function Home() {
                       <div className="col-md-11 col-lg-5">
                         <div className="single-box">
                           <div className="card-img-box">
-                            <img src={Sylvio} className="card-img"></img>
+                            <img src={Sylvio} alt="Sylvio Camargo" className="card-img"></img>
                           </div>
                           <a className="card-name-box"
                             target="_blank"
@@ -106,10 +106,6 @@ function Home() {
 
                     </div>
                   </div>
-  
-
-
-
 
                 </div>
 
