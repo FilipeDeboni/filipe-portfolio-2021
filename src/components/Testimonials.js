@@ -79,7 +79,7 @@ function Home() {
                             <h5 className="card-title">Letícia Ferracin</h5>
                             <i className="fab fa-linkedin"></i>
                           </a>
-                          <h6 className="card-subtitle mb-2 text-muted">Technology Manager at CI&T</h6>
+                          <h6 className="card-subtitle mb-2 text-muted">Squad Leader Manager at CI&T</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3 years)</h6>
                           <p className="card-text mb-3">"Filipe is a great professional and a very engaged person with processes, creation and results. Personally, he has a very positive energy, is very kind and polite. Words that describes him is committed, critical thinking and very engaged."</p>
                         </div>
