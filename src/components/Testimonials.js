@@ -56,7 +56,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Product and Innovation Manager at Pearson</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3,5 years)</h6>
-                          <p className="card-text mb-3">"He was the guy to organize and control, things that he is really good, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. He is very engaged, responsible and trustworthy."</p>
+                          <p className="card-text mb-3">"He was the guy to organize and control, things that he is really good at, besides that at the time he studied UX, Programming and is a Psychologist. The guy is awesome and will bring a lot of value to the team wherever he works, he really focuses on the client and understands how he interacts with the services. He is very engaged, responsible and trustworthy."</p>
                         </div>
                       </div>
 
@@ -100,7 +100,7 @@ function Home() {
                           </a>
                           <h6 className="card-subtitle mb-2 text-muted">Squad Leader at CI&T</h6>
                           <h6 className="card-subtitle mb-4 text-muted">(worked on the same team for 3,5 years)</h6>
-                          <p className="card-text mb-3">"A very organized professional who knows what to do, when to do and helps the team to reach the final goal, even if it requires something other than their role. He will help you with everything you need, you can run to him that he knows everything and saves you. I would describe him as organized, focused and trustworthy."</p>
+                          <p className="card-text mb-3">"A very organized professional who knows what to do, when to do and helps the team to reach the final goal, even if it requires something other than their role. He will help you with everything you need, you can go to him that he knows everything and saves you. I would describe him as organized, focused and trustworthy."</p>
                         </div>
                       </div>
 
