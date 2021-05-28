@@ -39,6 +39,10 @@ function Home() {
                   <p>Node.JS</p>  
                 </div>
                 <div>
+                  <i className="fab fa-python"></i>
+                  <p>Python</p>  
+                </div>
+                <div>
                   <i className="fas fa-server"></i>
                   <p>MongoDB</p>  
                 </div>
@@ -60,7 +64,7 @@ function Home() {
                 <p>I'm Filipe Deboni <br></br>and I'm a <span className="typing-2">Full Stack Developer</span></p>
               </div>
               <div>
-                <p>I’m a Front-End Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
+                <p>I’m a Full Stack Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
                 <p>As a good INTJ and Type 5 personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other hand, things I'm not so good at are to deal with people who put emotions over rationality and when I'm focused I can seem to be in my own world. My bachelor in Psychology helped me a lot with that points, also to think strategically and to relate better with people.</p>
               </div>
               
