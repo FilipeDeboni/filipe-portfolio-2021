@@ -35,12 +35,12 @@ function Home() {
                   <p>Bootstrap</p>  
                 </div>
                 <div>
-                  <i className="fab fa-node-js"></i>
-                  <p>Node.JS</p>  
-                </div>
-                <div>
                   <i className="fab fa-python"></i>
                   <p>Python</p>  
+                </div>
+                <div>
+                  <i className="fab fa-node-js"></i>
+                  <p>Node.JS</p>  
                 </div>
                 <div>
                   <i className="fas fa-server"></i>
@@ -71,7 +71,7 @@ function Home() {
 
                <div className="experience-box">
                  <div className="experience mb-3">
-                   <h3>05+</h3>
+                   <h3>04+</h3>
                    <h6>years of experience in Technology field</h6>
                    <p style={{ color:"gray"}}>(since 2016)</p>
                  </div>
@@ -82,7 +82,6 @@ function Home() {
                 </div> */}
               </div>
   
-              
             </div> 
             <div className="about-btn">
               <a
