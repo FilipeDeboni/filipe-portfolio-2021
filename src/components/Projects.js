@@ -65,7 +65,7 @@ function Home() {
                   <div className="project-info-text">
                     <div className="project-title">Portfolio 2020</div>
                     <div className="project-description d-lg-block">
-                      <p>I developed an old version of my Portfolio in 2019/2020 to gather my projects in a more visual way. 
+                      <p>I developed an old version of my Portfolio in 2019/2020 to gather my projects. 
                       Much of that design I did in an experimental way, just to practice technical skills.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>

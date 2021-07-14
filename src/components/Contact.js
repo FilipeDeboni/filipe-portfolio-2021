@@ -44,7 +44,9 @@ function Home() {
                     <textarea id="" cols="30" rows="10" placeholder="Message" required></textarea>
                   </div>
                   <div className="button">
-                    <button type="submit">This form is not working yet</button>
+                    <button target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://github.com/FilipeDeboni">Use my LinkedIn instead ;)</button>
                   </div>
                 </form>
               </div>

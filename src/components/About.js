@@ -11,12 +11,12 @@ function Home() {
               <div className="text">Skills</div>
               <div className="skills">
                 <div>
-                  <i className="fab fa-react"></i>
-                  <p>React.JS</p>  
+                  <i className="fab fa-angular"></i>
+                  <p>Angular</p>  
                 </div>
                 <div>
-                  <i className="fab fa-vuejs"></i>
-                  <p>Vue.JS</p>  
+                  <i className="fab fa-react"></i>
+                  <p>React.JS</p>  
                 </div>
                 <div>
                   <i className="fab fa-js-square"></i>
@@ -35,8 +35,8 @@ function Home() {
                   <p>Bootstrap</p>  
                 </div>
                 <div>
-                  <i className="fab fa-python"></i>
-                  <p>Python</p>  
+                  <i className="fab fa-java"></i>
+                  <p>Java</p>  
                 </div>
                 <div>
                   <i className="fab fa-node-js"></i>
@@ -57,6 +57,10 @@ function Home() {
                   <i className="fas fa-undo-alt"></i>
                   <p>SCRUM</p>  
                 </div>
+                <div>
+                  <i className="fas fa-clipboard-check"></i>
+                  <p>Kanban</p>  
+                </div>
               </div>
             </div>
             <div className="column right">
@@ -71,15 +75,15 @@ function Home() {
 
                <div className="experience-box">
                  <div className="experience mb-3">
-                   <h3>04+</h3>
+                   <h3>05+</h3>
                    <h6>years of experience in Technology field</h6>
                    <p style={{ color:"gray"}}>(since 2016)</p>
                  </div>
-                 {/* <div className="experience mb-3">
+                 <div className="experience mb-3">
                    <h3>01+</h3>
                    <h6>years of experience as Software Engineer</h6>
                    <p style={{ color:"gray"}}>(since 2020)</p>
-                </div> */}
+                </div>
               </div>
   
             </div> 
@@ -87,7 +91,7 @@ function Home() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1NSc93_2qwbCgQffopYgDMV2z5DHaMCCR/view?usp=sharing">
+                href="https://drive.google.com/file/d/1ujM1CNEUAvpyKsWpXvhTsEyga_k_lA50/view?usp=sharing">
                 Download Resume
               </a>
             </div>
