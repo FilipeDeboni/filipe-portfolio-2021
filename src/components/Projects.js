@@ -11,22 +11,12 @@ function Home() {
       <div className="projects" id="projects">    
         <h2 className="title white">Projects</h2>
         <div className="projects-content">
-   
-      
-              {/* <div className="project-card">
-                <Link to="/netflix" >
-                  <img src={ImgProject1} className="box-4"></img>
-                </Link>
-                <div className="project-info">
-                  <div className="project-title">Title</div>
-                  <div className="project-description">description</div>
-                  <div className="project-tags">Tags</div>
-                </div>
-              </div> */}
 
               {/* Project 4 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
+              <div className="project-img-box">
                 <img src={ImgProject4} alt="Netflix main page with mobile version" className="project-img"></img>
+              </div>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Netflix</div>
@@ -60,7 +50,9 @@ function Home() {
 
               {/* Project 3 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject3} alt="portfolio website with mobile version" className="project-img"></img>
+                <div className="project-img-box">
+                  <img src={ImgProject3} alt="portfolio website with mobile version" className="project-img"></img>
+                </div>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Portfolio 2020</div>
@@ -92,7 +84,9 @@ function Home() {
 
               {/* Project 2 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject2} alt="social website with pet pictures" className="project-img"></img>
+                <div className="project-img-box">
+                  <img src={ImgProject2} alt="social website with pet pictures" className="project-img"></img>
+                </div>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Pet Friend.ly</div>
@@ -118,7 +112,9 @@ function Home() {
 
               {/* Project 1 */}
               <div className="project-card col-xs-12 col-sm-11 col-lg-9 col-xl-7" data-toggle="modal" data-target="#exampleModalCenter">
-                <img src={ImgProject1} alt="website with two worker women pointing to a laptop" className="project-img"></img>
+                <div className="project-img-box">
+                  <img src={ImgProject1} alt="website with two worker women pointing to a laptop" className="project-img"></img>
+                </div>
                 <div className="project-info">
                   <div className="project-info-text">
                     <div className="project-title">Clover: Personal Budget</div>

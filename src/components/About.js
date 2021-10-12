@@ -35,10 +35,6 @@ function Home() {
                   <p>Bootstrap</p>  
                 </div>
                 <div>
-                  <i className="fab fa-java"></i>
-                  <p>Java</p>  
-                </div>
-                <div>
                   <i className="fab fa-node-js"></i>
                   <p>Node.JS</p>  
                 </div>
@@ -65,13 +61,12 @@ function Home() {
             </div>
             <div className="column right">
               <div className="text">
-                <p>I'm Filipe Deboni,<br></br>a <span className="typing-2">Full Stack Developer</span></p>
+                <p>I'm Filipe Deboni,<br></br>a <span className="typing-2">Front End Developer</span></p>
               </div>
               <div>
-                <p>I’m a Full Stack Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
-                <p>As a good INTJ and Type 5 personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other hand, things I'm not so good at are to deal with people who put emotions over rationality and when I'm focused I can seem to be in my own world. My bachelor in Psychology helped me a lot with that points, also to think strategically and to relate better with people.</p>
+                <p>I’m a Front End Developer with experience in the Technology field, with postgraduate education in Interaction Design and currently studying graduation in Analysis and Development of Systems and already finished on 2020 the Ironhack Web Development Bootcamp.</p>
+                <p>As a good INTJ personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other hand, things I'm not so good at are to deal with people who put emotions over rationality and when I'm focused I can seem to be in my own world. My bachelor in Psychology helped me a lot with that points, also to think strategically and to relate better with people.</p>
               </div>
-              
 
                <div className="experience-box">
                  <div className="experience mb-3">
@@ -79,11 +74,7 @@ function Home() {
                    <h6>years of experience in Technology field</h6>
                    <p style={{ color:"gray"}}>(since 2016)</p>
                  </div>
-                 <div className="experience mb-3">
-                   <h3>01+</h3>
-                   <h6>years of experience as Software Engineer</h6>
-                   <p style={{ color:"gray"}}>(since 2020)</p>
-                </div>
+ 
               </div>
   
             </div> 
@@ -92,7 +83,7 @@ function Home() {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1ujM1CNEUAvpyKsWpXvhTsEyga_k_lA50/view?usp=sharing">
-                Download Resume
+                Download Resume (portuguese)
               </a>
             </div>
           </div>

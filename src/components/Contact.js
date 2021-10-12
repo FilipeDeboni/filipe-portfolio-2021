@@ -7,8 +7,11 @@ function Home() {
           <h2 className="title">Contact me</h2>
             <div className="contact-content">
               <div className="column left">
-                <div className="subtitle">Get in touch</div>
-                <p className="text">If you want to get in touch or just say hi, feel free to reach me out through any platform bellow and let's talk.</p>
+                {/* <div className="subtitle">Get in touch</div> */}
+                <p className="text text-contact">If you want to get in touch or just say hi, feel free to reach me out through any platform and let's talk.</p>
+              </div>
+
+              <div className="column right">
                 <div className="row">
                   <a href="mailto:deboni.filipe@gmail.com">
                     <i className="far fa-envelope-open"></i>
@@ -26,7 +29,7 @@ function Home() {
                 </div>
               </div>
               
-              <div className="column right">
+              {/* <div className="column right">
                 <div className="subtitle">Message me</div>
                 <form action="#">
                   <div className="fields">
@@ -49,7 +52,7 @@ function Home() {
                     href="https://github.com/FilipeDeboni">Use my LinkedIn instead ;)</button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
         </div>
     </section>

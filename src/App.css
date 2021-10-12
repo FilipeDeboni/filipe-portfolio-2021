@@ -203,6 +203,11 @@ section .title::after{
 .project-card:hover{
   transform: scale(1.05);
 }
+.project-img-box{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 .project-img{
   background-position: center;
   background-repeat: no-repeat;
@@ -210,7 +215,8 @@ section .title::after{
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
-  width: 60%;
+  width: 100%;
+  height: auto;
 }
 .project-info{
   padding: 0 0 0 20px;
@@ -501,7 +507,7 @@ section .title::after{
   font-size: 28px;
   font-weight: 500;
   padding: 8px;
-  margin: 10px 0 24px 0;
+  margin: 10px 15px 24px 15px;
   border-radius: 15px;
   border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
@@ -570,12 +576,16 @@ section .title::after{
   color: var(--secondary);
   background-color: var(--tertiary);
 }
+.text-contact{
+  margin-left: 110px;
+  margin-right: 110px;
+}
 
 /* ====================== Footer Section ====================== */
 footer{
   background: var(--secondary);
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 20px 15px;
   color: var(--primary);
   text-align: center;
 }
@@ -598,6 +608,10 @@ footer span a:hover{
   .testimonials-content .carousel-control-next{
     margin-right: -25px;
   }
+  .text-contact{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 @media (max-width: 1199px){
   .home .home-content .img-box,
@@ -614,6 +628,10 @@ footer span a:hover{
   }
   .testimonials-content .carousel-control-next{
     margin-right: -15px;
+  }
+  .text-contact{
+    margin-left: 80px;
+    margin-right: 80px;
   }
 }
 
@@ -678,6 +696,10 @@ footer span a:hover{
   .testimonials-content .carousel-control-next{
     font-size: 0;
   }
+  .text-contact{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
 
 @media (max-width: 767px){
@@ -710,9 +732,6 @@ footer span a:hover{
     flex-direction: column;
     align-items: center;
   }
-  .project-img{
-    width: 100%;
-  }
   .project-info{
     padding: 0;
   }
@@ -743,6 +762,10 @@ footer span a:hover{
   .testimonials-content .single-box .card-text{
     font-size: 14px;
   }
+  .text-contact{
+    margin-left: 70px;
+    margin-right: 70px;
+  }
 }
 
 @media (max-width: 500px){
@@ -764,5 +787,9 @@ footer span a:hover{
   }
   .about, .projects, .contact, footer{
     font-size: 0.95rem;
+  }
+  .text-contact{
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
