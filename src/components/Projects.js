@@ -23,11 +23,10 @@ function Home() {
                     <div className="project-description d-lg-block">
                       <p>The Netflix mainpage clone that I developed to practice Front-End Skills.
                       It was very fun to work with that, mostly with the list scroll feature and the API from TheMovieDB.com, 
-                      that has movies from all studios.
-                      </p>
+                      that has movies from all studios.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>
-                      Tags: React, JavaScript, API, responsivity.
+                      Tags: React, JavaScript, API, responsivity, created in 2021.
                     </div>
                   </div>
 
@@ -61,7 +60,7 @@ function Home() {
                       Much of that design I did in an experimental way, just to practice technical skills.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>
-                      Tags: React, JavaScript, API, Single Page Application (SPA), responsivity.
+                      Tags: React, JavaScript, API, Single Page Application (SPA), responsivity, created in 2020.
                     </div>
                   </div>
 
@@ -95,7 +94,7 @@ function Home() {
                       It was developed in a team of two and I was responsible for the Front-End.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>
-                      Tags: React, JavaScript, Bootstrap, MongoDB, responsivity.
+                      Tags: React, JavaScript, Bootstrap, MongoDB, responsivity, created in 2020.
                     </div>                  
                   </div>
 
@@ -123,7 +122,7 @@ function Home() {
                       It was developed in a team of two and I was responsible for the Front-End.</p>
                     </div>
                     <div className="project-tags" style={{ color:"gray"}}>
-                      Tags: JavaScript, Bootstrap, Handlebars, MongoDB, responsivity.
+                      Tags: JavaScript, Bootstrap, Handlebars, MongoDB, responsivity, created in 2020.
                     </div>                  
                   </div>
 
