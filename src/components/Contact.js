@@ -6,28 +6,33 @@ function Home() {
       <div className="contact" id="contact">
           <h2 className="title">Contact me</h2>
             <div className="contact-content">
-              <div className="column left">
-                {/* <div className="subtitle">Get in touch</div> */}
+              {/* <div className="column left">
+                <div className="subtitle">Get in touch</div>
                 <p className="text text-contact">If you want to get in touch or just say hi, feel free to reach me out through any platform and let's talk.</p>
-              </div>
+              </div> */}
 
-              <div className="column right">
+              {/* <div className="column right"> */}
                 <div className="row">
-                  <a href="mailto:deboni.filipe@gmail.com">
-                    <i className="far fa-envelope-open"></i>
-                  </a>
-                  <a target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/filipedeboni/">
-                    <i className="fab fa-linkedin-in"></i>
-                  </a>
-                  <a target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/FilipeDeboni">
-                    <i className="fab fa-github"></i>
-                  </a>
+                  <div className="contact-btn-box">
+                    <a href="mailto:deboni.filipe@gmail.com">
+                      <i className="far fa-envelope-open"></i>
+                      <p>e-mail</p>
+                    </a>
+                    <a target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.linkedin.com/in/filipedeboni/">
+                      <i className="fab fa-linkedin-in"></i>
+                      <p>LinkedIn</p>
+                    </a>
+                    <a target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://github.com/FilipeDeboni">
+                      <i className="fab fa-github"></i>
+                      <p>GitHub</p>
+                    </a>
+                  </div>
                 </div>
-              </div>
+              {/* </div> */}
               
               {/* <div className="column right">
                 <div className="subtitle">Message me</div>

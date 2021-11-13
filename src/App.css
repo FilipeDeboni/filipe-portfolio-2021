@@ -507,12 +507,12 @@ section .title::after{
   font-size: 28px;
   font-weight: 500;
   padding: 8px;
-  margin: 10px 15px 24px 15px;
+  margin: 10px 50px 15px 50px;
   border-radius: 15px;
   border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
 }
-.contact .contact-content .row a i:hover{
+.contact .contact-content .row div a i:hover{
   color: var(--secondary);
   background-color: var(--tertiary);
 }
@@ -572,13 +572,25 @@ section .title::after{
   border: 2px solid var(--tertiary);
   transition: all 0.3s ease;
 }
-.contact .right form .button button:hover{
+/* .contact .right form .button button:hover{
   color: var(--secondary);
   background-color: var(--tertiary);
-}
+} */
 .text-contact{
   margin-left: 110px;
   margin-right: 110px;
+}
+.contact-btn-box{
+  display: inline-flex;
+  justify-content: center;
+}
+.contact-btn-box a{
+  text-decoration: none;
+  color: var(--tertiary);
+  transition: all 0.3s ease;
+}
+.contact-btn-box a:hover{
+  color: var(--tertiary);
 }
 
 /* ====================== Footer Section ====================== */
@@ -738,7 +750,6 @@ footer span a:hover{
   .project-info-btns{
     display: flex;
     justify-content: center;
-    width: 70%;
   }
   .about .about-content .right .experience-box .experience{
     width: calc(50% - 20px);
@@ -766,6 +777,9 @@ footer span a:hover{
     margin-left: 70px;
     margin-right: 70px;
   }
+  .contact .contact-content .row a i{
+    margin: 10px 30px 10px 30px;
+  }
 }
 
 @media (max-width: 500px){
@@ -791,5 +805,8 @@ footer span a:hover{
   .text-contact{
     margin-left: 40px;
     margin-right: 40px;
+  }
+  .contact .contact-content .row a i{
+    margin: 10px 15px 10px 15px;
   }
 }
