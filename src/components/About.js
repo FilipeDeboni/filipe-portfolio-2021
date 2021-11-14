@@ -50,6 +50,10 @@ function Home() {
                   </p>  
                 </div>
                 <div>
+                  <i className="fas fa-user-plus"></i>
+                  <p>UX Design</p>  
+                </div>
+                <div>
                   <i className="fas fa-undo-alt"></i>
                   <p>SCRUM</p>  
                 </div>
